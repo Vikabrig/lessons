@@ -1,0 +1,61 @@
+/*@import url("reset.css");*/
+.main {
+    font-size: 20px;
+}
+
+.orange {
+
+    color: orange;
+}
+
+.orange>p {
+    font-size: 20px;
+}
+
+.blue {
+    color: blue;
+}
+
+.blue>p {
+    font-size: 20px;
+}
+
+mark {
+    color: aqua;
+}
+
+.green>p {
+    font-size: 20px;
+}
+
+.green {
+    color: green;
+}
+
+.green+img {
+    width: 500px;
+}
+
+#zelenyi {
+    font-weight: bold;
+}
+
+.yellow {
+    color: rgb(255, 153, 0);
+}
+
+span.violet {
+    color: violet;
+}
+
+.blue * {
+    font-style: italic;
+}
+
+.main.vyznachennya {
+    font-weight: bold;
+}
+
+.yellow+img {
+    width: 500px;
+}
