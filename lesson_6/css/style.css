@@ -1,0 +1,156 @@
+/*скидання стилів*/
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: Inter;
+}
+
+.picture {
+    width: 715.519px;
+    height: 477.012px;
+    margin: 37px 270px;
+}
+
+.block-1 {
+    width: 692px;
+    height: 86px;
+    color: #37393F;
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%;
+    margin: 17px 270px;
+}
+
+.block-2 {
+    width: 692px;
+    height: 103px;
+    color: #7D7D7D;
+
+
+    font-size: 18px;
+    font-style: normal;
+
+    line-height: 146.187%;
+    margin: 17px 270px 42px 270px;
+}
+
+.block-3 {
+    width: 692px;
+    height: 54px;
+    color: #6B77E5;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%;
+    margin: 17px 270px 12px 270px;
+}
+
+.block-4 {
+    width: 692px;
+    height: 54px;
+    color: #7D7D7D;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+
+    line-height: 146.187%;
+    margin: 17px 270px 40px 270px;
+}
+
+.picture-2 {
+    width: 398.703px;
+    height: 265.802px;
+    margin: 40px 29px 50px 270px;
+    display: inline;
+}
+
+.block-5 {
+    display: inline-block;
+}
+
+.block-5 h3 {
+    color: #37393F;
+
+    font-family: Poppins;
+    font-size: 25px;
+
+    font-weight: 600;
+    line-height: 127%;
+    padding-bottom: 15px;
+}
+
+.block-5 h4 {
+    width: 332px;
+    height: 54px;
+    color: #40DDB6;
+
+    font-family: Poppins;
+    font-size: 20px;
+
+    font-weight: 600;
+    line-height: 127%;
+    margin-bottom: 21px;
+}
+
+.block-5 ul {
+
+    color: #7D7D7D;
+
+    font-family: Inter;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 52px;
+    margin-bottom: 100px;
+}
+
+/*--------Jewels--------------*/
+.block {
+    display: inline-block;
+}
+
+.title h5 {
+    color: #D06B00;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px 38px 13px 70px;
+}
+
+.title h6 {
+    color: #0E333D;
+
+    font-family: DM Serif Text;
+    font-size: 59px;
+
+    font-weight: 400;
+    line-height: 146.5%;
+    max-height: 172px;
+    max-width: 526px;
+    margin: 13px 38px 25px 70px;
+}
+
+.text {
+    color: #474747;
+
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 180%;
+    max-width: 563px;
+    max-height: 232px;
+    margin: 25px 29px 50px 70px;
+}
+
+.pictures {
+    width: 273px;
+    height: 518px;
+}
