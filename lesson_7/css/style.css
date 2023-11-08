@@ -12,6 +12,7 @@ body {
     padding: 30px 15px;
     max-width: 1248px;
     margin: 0 auto;
+    display: inline;
 }
 
 .menu {
@@ -24,31 +25,24 @@ body {
 }
 
 .square {
+    /*vertical-align: top;
+
     width: 12px;
     height: 12px;
-    border-top: 8px solid #40DDB6;
-    border-right: 8px solid #40DDB6;
-    border-bottom: 8px solid #40DDB6;
-    border-left: 8px solid #40DDB6;
-    padding: 0 698px 0x 508px;
+    background: #40DDB6;
+    display: inline-block;
+    padding: 0 698px 0x 508px;*/
 }
-
-.head {
-    text-align: center;
-}
-
 
 .head p {
+    max-width: 1170px;
     color: #37393F;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 16px;
-    padding: 0 508px 0 526px;
     display: inline;
+    padding: 0 508px 0 526px;
 }
-
-
-
 
 .title h1 {
     color: #37393F;
@@ -280,21 +274,22 @@ span {
     line-height: 140%;
 }
 
-.img-1 {
-    display: inline;
+.frame {
+    display: inline-block;
     max-width: 177px;
     padding-right: 10px;
-}
-
-.img-2 {
-    display: inline;
-    max-width: 307px;
-    padding-right: 20px;
-}
-
-img {
     padding-top: 14px;
-    padding-right: 18px;
-    border-radius: 235px;
+    margin-right: 20px;
     border: 1px solid #502203;
+    border-radius: 235px;
+}
+
+.frame-2 {
+    display: inline-block;
+    max-width: 307px;
+    padding-right: 11px;
+    padding-top: 19px;
+    margin-top: -60px;
+    border: 1px solid #502203;
+    border-radius: 235px;
 }
