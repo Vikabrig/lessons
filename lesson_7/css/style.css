@@ -8,12 +8,6 @@ body {
     font-style: normal;
 }
 
-.block {
-    padding: 30px 15px;
-    max-width: 1248px;
-    margin: 0 auto;
-    display: inline;
-}
 
 .menu {
     font-family: playpen;
@@ -24,24 +18,27 @@ body {
     margin: 0 auto;
 }
 
-.square {
-    /*vertical-align: top;
+.block {
+    padding: 30px 15px;
+    max-width: 1248px;
+    margin: 0 auto;
 
+}
+
+.square {
     width: 12px;
     height: 12px;
     background: #40DDB6;
+    margin: 0px 698px -20px 508px;
     display: inline-block;
-    padding: 0 698px 0x 508px;*/
 }
 
 .head p {
-    max-width: 1170px;
     color: #37393F;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 16px;
     display: inline;
-    padding: 0 508px 0 526px;
+    margin: 0px 508px 16px 526px;
 }
 
 .title h1 {
