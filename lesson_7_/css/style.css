@@ -1,0 +1,292 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.menu {
+    font-family: playpen;
+    color: cadetblue;
+    text-align: center;
+    background-color: beige;
+    padding: 30px 15px;
+    margin: 0 auto;
+}
+
+.block {
+    padding: 30px 15px;
+    max-width: 1248px;
+    margin: 0 auto;
+
+}
+
+/*.square {
+    width: 12px;
+    height: 12px;
+    background: #40DDB6;
+    margin: 0px 698px -20px 508px;
+    display: inline-block;
+}*/
+
+.head p {
+    color: #37393F;
+    font-weight: 500;
+    line-height: normal;
+    display: inline;
+    margin: 0px 508px 16px 526px;
+}
+
+.title h1 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 121%;
+    margin-bottom: 70px;
+}
+
+.title h2 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%;
+    margin-bottom: 11px;
+}
+
+.text {
+    color: #7D7D7D;
+    line-height: 146.187%;
+    margin-bottom: 32px;
+}
+
+.subtitle {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+.subtitle span {
+    color: #40DDB6;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle-1 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%;
+    margin-bottom: 11px;
+}
+
+.text-1 {
+    color: #7D7D7D;
+    line-height: 146.187%;
+    margin-bottom: 44px;
+}
+
+.subtitle-2 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.subtitle-2 span {
+    color: #40DDB6;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.text-2 {
+    color: #40DDB6;
+    line-height: 146.187%;
+    margin-bottom: 24px;
+}
+
+.subtitle-3 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.subtitle-3 span {
+    color: #40DDB6;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.text-3 {
+    color: #40DDB6;
+    line-height: 146.187%;
+    margin-bottom: 100px;
+}
+
+.text-1 span {
+    color: #40DDB6;
+    font-weight: 500;
+    line-height: 146.187%;
+}
+
+.project {
+    color: #37393F;
+
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 127%;
+    margin-bottom: 13px;
+}
+
+.text p {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.list li {
+    margin-bottom: 35px;
+    color: #7D7D7D;
+    font-weight: 500;
+    line-height: 146.187%;
+    padding-inline-start: 16px;
+}
+
+.text .subtext {
+    margin-bottom: 35px;
+}
+
+.head-3 {
+    color: #3C4242;
+
+    font-family: Core Sans C;
+    font-size: 28px;
+
+    font-weight: 600;
+    line-height: 33.5px;
+    /* 119.643% */
+    letter-spacing: 0.56px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    color: #807D7E;
+
+    font-family: Core Sans C;
+    font-size: 20px;
+
+    font-weight: 600;
+    line-height: 33.5px;
+    /* 167.5% */
+    letter-spacing: 0.4px;
+    margin-bottom: 85px;
+}
+
+.text-4 {
+    color: #807D7E;
+
+    font-family: Causten;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.5px;
+    /* 167.5% */
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+}
+
+.text-4 p {
+    margin-top: 25px;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.text-5 {
+    border-top: 5px;
+}
+
+
+.jewelery {
+    margin-right: 79px;
+    max-width: 503px;
+    display: inline-block;
+
+}
+
+.head-4 {
+    color: #D58417;
+
+    font-family: Cormorant Infant;
+    font-size: 20px;
+
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 27px;
+}
+
+.jewelery h6 {
+    color: #000;
+
+    font-family: Cormorant Infant;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+
+    margin-bottom: 31px;
+}
+
+
+.text-5 {
+    color: #606060;
+
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.frame {
+    display: inline-block;
+    max-width: 177px;
+    padding-right: 10px;
+    padding-top: 14px;
+    margin-right: 20px;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
+
+.frame-2 {
+    display: inline-block;
+    max-width: 307px;
+    padding-right: 11px;
+    padding-top: 19px;
+    margin-top: -60px;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
