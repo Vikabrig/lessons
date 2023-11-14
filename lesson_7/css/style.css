@@ -2,7 +2,7 @@
 @import url("reset.css");
 
 body {
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -44,7 +44,7 @@ body {
 .title h1 {
     color: #37393F;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 60px;
     font-weight: 700;
     line-height: 121%;
@@ -53,7 +53,7 @@ body {
 
 .title h2 {
     color: #37393F;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 700;
     line-height: 121%;
@@ -68,7 +68,7 @@ body {
 
 .subtitle {
     color: #37393F;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
@@ -77,7 +77,7 @@ body {
 
 .subtitle span {
     color: #40DDB6;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 400;
     line-height: normal;
@@ -85,7 +85,7 @@ body {
 
 .subtitle-1 {
     color: #37393F;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 700;
     line-height: 121%;
@@ -100,7 +100,7 @@ body {
 
 .subtitle-2 {
     color: #37393F;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
@@ -109,7 +109,7 @@ body {
 
 .subtitle-2 span {
     color: #40DDB6;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 400;
     line-height: normal;
@@ -124,7 +124,7 @@ body {
 
 .subtitle-3 {
     color: #37393F;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
@@ -133,7 +133,7 @@ body {
 
 .subtitle-3 span {
     color: #40DDB6;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 30px;
     font-weight: 400;
     line-height: normal;
@@ -155,7 +155,7 @@ body {
 .project {
     color: #37393F;
 
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 40px;
     font-weight: 700;
     line-height: 127%;
@@ -182,7 +182,7 @@ body {
 .head-3 {
     color: #3C4242;
 
-    font-family: Core Sans C;
+    font-family: "Core Sans C";
     font-size: 28px;
 
     font-weight: 600;
@@ -195,7 +195,7 @@ body {
 h5 {
     color: #807D7E;
 
-    font-family: Core Sans C;
+    font-family: "Core Sans C";
     font-size: 20px;
 
     font-weight: 600;
@@ -208,7 +208,7 @@ h5 {
 .text-4 {
     color: #807D7E;
 
-    font-family: Causten;
+    font-family: "Causten";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -242,7 +242,7 @@ span {
 .head-4 {
     color: #D58417;
 
-    font-family: Cormorant Infant;
+    font-family: "Cormorant Infant";
     font-size: 20px;
 
     font-weight: 700;
@@ -253,7 +253,7 @@ span {
 .jewelery h6 {
     color: #000;
 
-    font-family: Cormorant Infant;
+    font-family: "Cormorant Infant";
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
@@ -265,7 +265,7 @@ span {
 .text-5 {
     color: #606060;
 
-    font-family: Cormorant Infant;
+    font-family: "Cormorant Infant";
     font-size: 30px;
     font-weight: 700;
     line-height: 140%;
