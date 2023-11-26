@@ -244,14 +244,17 @@
     font-weight: 600;
 }
 
-.task_5 {
+/*.task_5 {
     margin-left: 10px;
-}
+    display: inline-block;
+}*/
 
 .text_4 {
+    margin-left: 10px;
     background: url("../img/unsplash.jpg") no-repeat;
     width: 613.997px;
     height: 640px;
+
     display: inline-block;
 }
 
@@ -292,9 +295,9 @@
 }
 
 .pct_7 {
-    background: url("../img/Rectangle\ 13.jpg") 0 -465px no-repeat;
+    background: url("../img/Rectangle\ 13.jpg") 0 0 no-repeat;
     width: 626px;
     height: 640px;
-    margin-left: 614px;
+    vertical-align: top;
     display: inline-block;
 }
