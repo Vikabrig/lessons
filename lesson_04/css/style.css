@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Gemstones:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,200,regular&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+
+body {
+    font-family: "Noto sans";
+    font-weight: 200;
+}
+
+.header {
+    font-family: "Nyght Serif Dark", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #F0E68C;
+}
+
+
+.content {
+    font-family: "Rubik Gemstones";
+    font-size: 24px;
+    color: brown;
+}
+
+.subtitle,
+.subtitle-1,
+.subtitle-2,
+.subtitle-3,
+.subtitle-4 {
+    font-family: "Rubik Gemstones";
+    font-size: 20px;
+    line-height: normal;
+    color: rgb(191, 165, 17);
+    text-decoration: underline;
+}
+
+.text,
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+    text-shadow: 13px 13px 13px rgb(191, 165, 17);
+}
+
+.footer {
+    font-family: "Rubik Gemstones";
+    color: rgba(191, 165, 17, 0.607);
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.footer>p {
+    text-align: center;
+    color: black;
+    font-family: "Proxima Nova Rg", cursive;
+    line-height: 30px;
+
+}
+
+.part-2 {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 30px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.part-3 {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2b2929;
+}
+
+.title_1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.img {
+    text-align: center;
+}
+
+.text_2 {
+    line-height: 30px;
+}
+
+.text_3 {
+    font-size: 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.list {
+    line-height: 30px;
+}
+
+.main_footer {
+    line-height: 22px;
+    color: #b1b1b1;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main_footer p {
+    text-align: right;
+    font-size: 25px;
+}
