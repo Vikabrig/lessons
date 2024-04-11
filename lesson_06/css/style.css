@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Gemstones:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,200,regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Scribble:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+.collection {
+    background-color: rgba(229, 229, 229, 1);
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    line-height: 55px;
+}
+
+.title {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.title h1 {
+    font-size: 74px;
+    font-weight: 300;
+    max-width: 360px;
+    margin: 60px 410px 60px 40px;
+}
+
+.title p {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 682px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+
+.wrapper-image {
+    display: inline-block;
+    max-width: 442px;
+    width: 100%;
+    height: 542px;
+    border: 2px solid grey;
+    border-radius: 20% 0 30% 0;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.wrapper-image img {
+    max-width: 442px;
+    width: 100%;
+    height: 542px;
+    border-radius: 20% 0 30% 0;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+.container {
+    display: inline-block;
+    max-width: 686px;
+    margin-right: 90px;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 10px 40px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 30px 29px;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("../img/Frame.png");
+    width: 119px;
+    height: 106px;
+}
+
+.explore {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    font-family: "Quicksand", sans-serif;
+    max-width: 1244px;
+    background-size: cover;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.explore_text {
+    display: inline-block;
+    color: #fff;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-top: 124px;
+}
+
+.explore_text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.explore_text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.button_explore {
+    color: #0d1216;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 100%;
+    padding: 12px 15px;
+    max-width: 217px;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #fff;
+}
+
+.explore_img {
+    display: inline-block;
+    max-width: 515px;
+}
+
+.krovatto {
+    font-size: 0;
+    max-width: 1070px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #2b2929;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.subtext {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.list {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 30px;
+
+}
+
+.list_item {
+    background: url("../img/mark.png") 0 3px no-repeat;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.sub_text {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #2b2929;
+    font-weight: 500;
+}
