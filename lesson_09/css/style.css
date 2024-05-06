@@ -1,0 +1,61 @@
+/* @import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,200,regular&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Rubik+Scribble:regular&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Golos+Text:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+
+header,
+footer {
+    color: rgb(44, 138, 138);
+    font-family: "Golos Text", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+main {
+    color: #535353;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-contacts__contacts-list {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.sale__list {
+    display: inline-block;
+}
+
+.categories__popular-categories,
+.most-popular-units__sub-header {
+    color: #2b2929;
+    font-size: 40px;
+}
+
+.list-categories {
+    font-size: 20px;
+}
+
+.most-popular-units__variety {
+    color: #ffbc57;
+    font-size: 19px;
+}
+
+.most-popular-units__items--small {
+    color: #535353;
+    font-size: 13px;
+}
+
+.most-popular-units__items {
+    color: #2b2929;
+    font-size: 19px;
+    font-weight: 400;
+}
