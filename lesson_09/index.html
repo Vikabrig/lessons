@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 9</title>
+
+</head>
+
+<body>
+    <header> Урок 9. Методологія БЕМ.
+    </header>
+    <main>
+        <div class="header">
+            <div class="top-header">
+                <div class="main-header">
+                    <ul class="main-header__list">
+                        <li class="main-header__item">Про нас</li>
+                        <li class="main-header__item">Оплата</li>
+                        <li class="main-header__item">Доставка та збірка</li>
+                        <li class="main-header__item">Відгуки</li>
+                        <li class="main-header__item">Блог</li>
+                        <li class="main-header__item">Контакти</li>
+                    </ul>
+                </div>
+                <div class="main-contacts">
+                    <ul class="main-contacts __contacts-list">
+                        <li class="main-contacts__contacts-item">Допомога і консультація:</li>
+                        <li class="main-contacts__contacts-item"> <img src="img/whatsapp.svg" alt="watsapp"></li>
+                        <li class="main-contacts__contacts-item"><img src="img/telegram.svg" alt="telegram"></li>
+                        <li class="main-contacts__contacts-item"><img src="img/viber.svg" alt="viber"></li>
+                        <li class="main-contacts__contacts-item"><img src="img/language.svg" alt="language"></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="middle-header">
+
+                <a href="https://krovato.com/" class="middle-header__logo"><img src="img/logo-header.svg"
+                        alt="logo"></a>
+                <a href="https://krovato.com/" class="middle-header__catalogue"><img src="img/button_catalogue.svg"
+                        alt="logo"></a>
+
+                <form class="middle-header__search">
+                    <input type="search" name="search" placeholder="Пошук товарів"
+                        class=" middle-header__search middle-header__search--grey">
+                </form>
+                <div class="middle-header__phone">
+                    <p class="middle-header__phone  middle-header__phone--small">Щодня з 9:00 до 18:00</p>
+                    <p class=" middle-header__phone middle-header__phone--number">067 929-45-45</p>
+                </div>
+                <div class="middle-header__buttons">
+                    <a href="#"> <img src="img/obrane.svg" alt="selected"></a>
+                    <a href="#"> <img src="img/korzina.svg" alt="basket"></a>
+                </div>
+            </div>
+            <div class="bottom-header">
+                <ul class="bottom-header__list">
+                    <li class="bottom-header__bottom-item"><img src="img/akcii.svg" alt="actions"></li>
+                    <li class="bottom-header__bottom-item">Акції</li>
+                    <li class="bottom-header__bottom-item"> <img src="img/sale.svg" alt="sale"> </li>
+                    <li class="bottom-header__bottom-item">Розпродаж</li>
+                    <li class="bottom-header__bottom-item"><img src="img/credit.svg" alt="credit"></li>
+                    <li class="bottom-header__bottom-item">Купити в кредит</li>
+                </ul>
+                <div class="bottom-header__rooms">
+                    <ul class="bottom-header__rooms-list">
+                        <li class="bottom-header__rooms-item">Дитяча</li>
+                        <li class="bottom-header__rooms-item">Кухня</li>
+                        <li class="bottom-header__rooms-item">Ванна</li>
+                        <li class="bottom-header__rooms-item">Спальня</li>
+                        <li class="bottom-header__rooms-item">Передпокій</li>
+                        <li class="bottom-header__rooms-item">Вітальня</li>
+                        <li class="bottom-header__rooms-item">Офіс</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popular-categories">
+            <h1 class="popular-categories__categories">Популярні категорії</h1>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Ліжка
+                        </div>
+                        <span class="card-popular__quantity">54</span>
+                        <img class="card-popular__image" src="img/main_1/img_1.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Матраци
+                        </div>
+                        <span class="card-popular__quantity">30</span>
+                        <img class="card-popular__image" src="img/main_1/img_2.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">М'які меблі
+                        </div>
+                        <span class="card-popular__quantity">196</span>
+                        <img class="card-popular__image" src="img/main_1/img_3.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Шафи
+                        </div>
+                        <span class="card-popular__quantity">79</span>
+                        <img class="card-popular__image" src="img/main_1/img_4.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Комоди
+                        </div>
+                        <span class="card-popular__quantity">54</span>
+                        <img class="card-popular__image" src="img/main_1/img_5.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Тумби
+                        </div>
+                        <span class="card-popular__quantity">64</span>
+                        <img class="card-popular__image" src="img/main_1/img_6.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Столи
+                        </div>
+                        <span class="card-popular__quantity">35</span>
+                        <img class="card-popular__image" src="img/main_1/img_7.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Стільці
+                        </div>
+                        <span class="card-popular__quantity">89</span>
+                        <img class="card-popular__image" src="img/main_1/img_8.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Меблеві стіни
+                        </div>
+                        <span class="card-popular__quantity">24</span>
+                        <img class="card-popular__image" src="img/main_1/img_9.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+            <ul class="popular-list">
+                <li class="popular-list card-popular">
+                    <a href="#" class="card-popular__link">
+                        <div class="card-popular__label">Кухні
+                        </div>
+                        <span class="card-popular__quantity">30</span>
+                        <img class="card-popular__image" src="img/main_1/img_10.png" alt="product">
+                        <img class="card-popular__icon" src="img/main_1/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="popular-categories">
+            <h2 class="popular-categories__sub-header">Найпопулярніші товари</h2>
+            <a href="#" class="popular-categories__variety">Дивитися всі<img src="img/small_arrow.svg"
+                    alt="small_arrow"></a>
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_1.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Ліжко Спарта / Sparta з підйомним механізмом
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__old-price">25 400 грн.</div>
+                            <div class="card-product__new-price">15 400 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_2.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Ліжко Аргон з підйомним механізмом
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__new-price">16 400 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_3.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Ліжко Престиж з підйомним механізмом
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__new-price">14 969 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_4.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Диван Токіо-2
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__new-price">13 211 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_5.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Матрац Largo SLIM / Ларго Слім
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__old-price">3 122 грн.</div>
+                            <div class="card-product__new-price">2 810 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_6.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Матрац ARGENTUM AMALTEA / Аргентум Амалті
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__old-price">5 966 грн.</div>
+                            <div class="card-product__new-price">5 071 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_7.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Диван Браво
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__new-price">10 008 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="card-product">
+                <li class="product-item card-product">
+                    <a href="#" class="card-product__link-image">
+                        <img class="card-product__image" src="img/main_2/img_7.jpg" alt="product">
+                    </a>
+                    <div class="card-product__size">
+                        Розмір: 61 x 184 x 2130 мм
+                    </div>
+                    <h3 class="card-product__title">
+                        <a class="card-product__link-title" href="#">
+                            Ліжко МК-5
+                        </a>
+                    </h3>
+                    <div class="card-product__available">
+                        <img src="img/main_2/check.svg" alt="icon">
+                        <span>В наявності</span>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__price">
+                            <div class="card-product__new-price">8 775 грн.</div>
+                        </div>
+                        <div class="card-product buttons-product">
+                            <a class="buttons-product__item" href="#">
+                                <img src="img/main_2/obrane_2.svg" alt="heart">
+                            </a>
+                            <a class="card-product__item" href="#">
+                                <img src="img/main_2/korzina_2.svg" alt="basket">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+    </main>
+    <footer>Footer</footer>
+</body>
+
+</html>
