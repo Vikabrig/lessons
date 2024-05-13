@@ -25,37 +25,135 @@ main {
     line-height: 30px;
 }
 
-.main-contacts__contacts-list {
+.main-contacts__contacts-item {
     display: inline-block;
     padding-bottom: 10px;
 }
 
-.sale__list {
+.middle-header__logo {
+    margin-bottom: 10px;
+}
+
+.middle-header__search {
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.middle-header__search--grey {
+    max-width: 421px;
+    min-height: 50px;
+    color: #b1b1b1;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 255px;
+    border: 1px solid #b1b1b1;
+    border-radius: 8px;
+    background: url("../img/poisk.svg") no-repeat 380px 15px;
+}
+
+.middle-header__phone {
+    background: url("../img/icon-tel.svg") no-repeat 10px 10px;
+    padding-left: 70px;
     display: inline-block;
 }
 
-.categories__popular-categories,
-.most-popular-units__sub-header {
-    color: #2b2929;
-    font-size: 40px;
-}
-
-.list-categories {
-    font-size: 20px;
-}
-
-.most-popular-units__variety {
-    color: #ffbc57;
-    font-size: 19px;
-}
-
-.most-popular-units__items--small {
+.middle-header__phone--small {
     color: #535353;
     font-size: 13px;
 }
 
-.most-popular-units__items {
+.middle-header__phone--number {
+    color: #2b2929;
+    font-size: 20px;
+}
+
+.middle-header__buttons {
+    margin-bottom: 10px;
+}
+
+
+.bottom-header {
+    margin-bottom: 10px;
+}
+
+.bottom-header__bottom-item {
+    display: inline-block;
+}
+
+.bottom-header__rooms-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.popular-categories__categories {
+    color: #2b2929;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.popular-list {
+    max-width: 250px;
+    min-height: 300px;
+}
+
+.card-popular__label {
+    display: inline-block;
+    color: #2b2929;
+    font-size: 20px;
+}
+
+.card-popular__quantity {
+    margin-left: 140px;
+    color: #b1b1b1;
+    font-size: 20px;
+}
+
+.card-popular__icon {
+    margin-left: 170px;
+    margin-top: -65px;
+}
+
+
+
+.categories__popular-categories,
+.popular-categories__sub-header {
+    color: #2b2929;
+    font-size: 40px;
+}
+
+.popular-categories__variety {
+    color: #ffbc57;
+    font-size: 19px;
+}
+
+.card-product {
+    margin-bottom: 20px;
+}
+
+.card-product__link-title,
+.card-product__new-price {
+    font-weight: 600;
+}
+
+.card-product__size,
+.card-product__available {
+    color: #535353;
+    font-size: 13px;
+}
+
+.card-product__link-title {
     color: #2b2929;
     font-size: 19px;
-    font-weight: 400;
+}
+
+.card-product__old-price {
+    color: #e03d3d;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.card-product__new-price {
+    color: #2b2929;
+    font-size: 20px;
 }
